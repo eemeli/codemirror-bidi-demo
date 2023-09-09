@@ -1,0 +1,23 @@
+{
+  "name": "cm-bidi-demo",
+  "private": true,
+  "scripts": {
+    "build": "rollup -o dist/demo.js -p @rollup/plugin-node-resolve src/demo.js",
+    "start": "python -m http.server 8000"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/commands": "^6.2.5",
+    "@codemirror/language": "^6.9.0",
+    "@codemirror/state": "^6.2.1",
+    "@codemirror/view": "^6.18.0",
+    "@lezer/highlight": "^1.1.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.15.0",
+    "typescript": "^5.2.2"
+  }
+}
